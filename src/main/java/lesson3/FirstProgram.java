@@ -13,5 +13,11 @@ public class FirstProgram {
     -Если D = 0, уравнение имеет один корень. x = - b / 2 a
     -Если D < 0, уравнение не имеет корней.
      */
+    public static void main(String[] args){
+
+    }
+    public static long diskriminant(long b, long a, long c){
+
+    }
 
 }
