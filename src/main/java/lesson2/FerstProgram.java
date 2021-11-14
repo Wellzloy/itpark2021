@@ -21,7 +21,7 @@ public class FerstProgram {
         long result = multiplyAndSumma(5);
         System.out.println(result);
 
-        long summaArguments = allArguments(12, 78, 54, 21);
+        long summaArguments = allArguments(12,78,54,21);
         System.out.println(summaArguments);
 
 
@@ -46,9 +46,9 @@ public class FerstProgram {
         result = result - 38;
         return result;
     }
-
     public static long allArguments(int arg1, int arg2, int arg3, int arg4) {
-        return (arg1 * arg2 - arg3) / arg4;
+        int result = (arg1 * arg2 - arg3)/arg4;
+        return result;
     }
 }
 
