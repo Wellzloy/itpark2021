@@ -4,7 +4,7 @@ public class FirstProgram {
 
 
     public static void main(String[] args) {
-        double x, x1, x2, a = 30, b = 1000, c = 0;
+        double x, x1, x2, a = 30, b = 1000, c = 10;
         double diskriminant = b * 2 - 4 * a * c;
 
         System.out.println("Значение дискриминанта:");
