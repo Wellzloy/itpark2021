@@ -1,5 +1,7 @@
 package lesson4;
 
+import static lesson2.FerstProgram.summa;
+
 public class SquareRoot {
     /*Воспользуйтесь процессом усреднения. Он также начинается с поиска двух полных квадратов,
     между которыми находится данное число.[5]
@@ -16,4 +18,26 @@ public class SquareRoot {
     арифметическое 3,1579 и 3,1667: (3,1579+3,1667)/2 = 3,1623.
     Проверьте ответ, умножив его на себя. 3,1623х3,1623 = 10,001 ≈ 10.
     */
-}
+
+    // int arg = 1;
+    // public static int main(String[] args) {
+    //    fullSquare = arg * arg;
+    //    return arg = arg + 1;
+
+    public static void main(String[] args) {
+
+        long summa = summa(3);
+        System.out.println(summa);
+
+    }
+    public static long summa(int arg1) {
+        int result = arg1 * arg1;
+        return result;
+    }
+
+
+
+    }
+
+
+
