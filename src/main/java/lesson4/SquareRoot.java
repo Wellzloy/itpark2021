@@ -24,7 +24,7 @@ public class SquareRoot {
     //    fullSquare = arg * arg;
     //    return arg = arg + 1;
 
-    public static void main(String[] args) {
+    /* public static void main(String[] args) {
 
         long summa = summa(3);
         System.out.println(summa);
@@ -38,6 +38,22 @@ public class SquareRoot {
 
 
     }
+*/
+    public static void main(String[] args) {
+        double fuiiSquare = 1;
 
+        for (int counter =1; fuiiSquare <= 1000; ++counter, fuiiSquare = counter * counter){
+            System.out.println ("Текущее значение счетчика:" + counter);
+            System.out.println("Значение полного квадрата:" + fuiiSquare);
+            double x;
+            x = fuiiSquare / 2;
+            System.out.println(x);
+        }
+        //System.out.println(x);
+
+
+    }
+
+}
 
 
